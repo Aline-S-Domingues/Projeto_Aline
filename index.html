@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Frutas Medicinais</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+    <link rel="icon" type="image/jpg" href="ICONE.jpg" />
+<body background="BKG3.jpg">
+    <div class="container" style="text-align: center;">
+        <header class="jumbotron" style="background-color:#5ac0bb; color:white;">
+            <h1><b>AS FRUTAS E SEUS EFEITOS MEDICINAIS</b></h1>
+            <p><b>Benefícios para saúde</b></p>
+           
+        </header>
+         
+        <div id="frutas"> 
+
+            <img src="FRUTAS.JPG" width="650" height="130">
+
+            <br><br><b>GOIABA:</b> Seja nos sucos, vitaminas, goiabadas ou geleias, a goiaba é uma excelente opção para alimentação funcional, rápida e nutritiva. Pesquisas recentes mostram que a goiaba é rica em vitamina C, licopeno, caroteno e proteínas, firmando-se como excelente alimento para diabéticos, prevenção ao câncer, fortalecimento da saúde cardiovascular, saúde dos olhos, desenvolvimento fetal, além de apresentar propriedades anti-inflamatórias, antibacterianas, prevenir a constipação intestinal e ajudar relaxar e emagrecer.
+
+            <br><br><b>BANANA:</b> A banana é um alimento prático, saudável e altamente nutritivo. Muitos atletas costumam consumir essa fruta antes, durante e depois dos treinos. Mas, os benefícios à saúde não se restringem a quem pratica uma atividade física. Essa fruta auxilia diretamente o sistema nervoso, ajuda a combater a anemia, combate problemas emocionais e reduz o estresse, reduz o cansaço físico e mental, ajuda no combate à pressão alta, diminui o risco de derrames e enfartos. É um importante aliado no combate ao fumo, além de ser uma ótima opção para acabar com a ressaca, pois atua diretamente no sistema digestivo. 
+
+            <br><br><b>LARANJA:</b> A laranja é uma fruta bastante comum da dieta dos brasileiros. Além de ser rico em vitamina C, o fruto reserva uma série de outros benefícios, incluindo melhores condições para o sistema cardíaco e digestivo. Devido a todas as suas propriedades naturais, a laranja traz como benefícios diretos à saúde o combate ao colesterol, o controle da pressão sanguínea, o estímulo às funções intestinais e sistema circulatório, além de ajudar a manter a defesa do organismo e deixar a pele mais bonita. 
+
+            <br><br><b>MAMÃO:</b> Uma das frutas mais consumidas pelos brasileiros, o mamão é rico em nutrientes, combina com diversos outros alimentos e, devido aos seus inúmeros benefícios nutricionais, é considerado um "remédio caseiro". O que muita gente não sabe é que a fruta é uma importante fonte de vitamina C, contendo até 10 vezes mais deste componente do que a laranja, sempre colocada como a grande forncedora da substância. Um dos principais diferenciais do mamão é a presença de carotenoides, entre eles o betacaroteno, a zeaxantina e a luteína, que ajudam a prevenir doenças nos olhos. A grande quantidade de fibras que esta fruta possui também a torna ideal para regular o intestino. Ele ainda tem diferentes vitaminas e minerais com ações antioxidantes e que ajudam a fortalecer o sistema imunológico.
+        </div>
+
+       <br><p><b>Clique no botão para reconhecer as frutas</b></p>
+       <br><img src="SETA.jpg" width="80" height="110"></br>
+        <br><br><button type="button" class="btn btn-info" onclick="init()">Iniciar Reconhecimento</button>
+        <div id="webcam-container"></div>
+        <div id="label-container" class="display-4"></div>
+        <br><br>
+ 
+
+        <footer class="panel-footer" style="text-align:center; background-color:#5ac0bb; color:white;"> 
+            Todos direitos reservados - Departamento de Computação - IFSULDEMINAS - Campus Machado
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+    <script src="tensor2.js"></script>   
+</body>
+</html>
